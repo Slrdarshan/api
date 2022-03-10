@@ -1,0 +1,23 @@
+package PathPathParameter;
+
+import org.testng.annotations.Test;
+
+import static io.restassured.RestAssured.*;
+
+public class PathParameterTest {
+
+	@Test
+	public void parameterTest() {
+	  
+		String proId="TY_PROJ_1802";
+		given()
+			.pathParam("ProjectId", proId)
+		.when()
+		   .delete("http://localhost:8084/projects/{ProjectId}")
+		.then()
+		   .assertThat().statusCode(204)
+		   .log().all();
+		
+	}
+	
+}

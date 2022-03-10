@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="rngyantra.com.ValidateUsingHamcrestTest">
+        <methods>
+          <include name="validate"/>
+        </methods>
+      </class> <!-- rngyantra.com.ValidateUsingHamcrestTest -->
+      <class name="rngyantra.com.DyanamicValueResponseTest">
+        <methods>
+          <include name="dyanamicValueTest"/>
+        </methods>
+      </class> <!-- rngyantra.com.DyanamicValueResponseTest -->
+      <class name="rngyantra.com.DeleteResourcesTest">
+        <methods>
+          <include name="DeleteResource"/>
+        </methods>
+      </class> <!-- rngyantra.com.DeleteResourcesTest -->
+      <class name="rngyantra.com.CreateJsonObjectUsingHashMapTest">
+        <methods>
+          <include name="creatFile"/>
+        </methods>
+      </class> <!-- rngyantra.com.CreateJsonObjectUsingHashMapTest -->
+      <class name="rngyantra.com.PutResourceTest">
+        <methods>
+          <include name="putResource"/>
+        </methods>
+      </class> <!-- rngyantra.com.PutResourceTest -->
+      <class name="ApiTesting.DeleteResourceTest">
+        <methods>
+          <include name="Delete"/>
+        </methods>
+      </class> <!-- ApiTesting.DeleteResourceTest -->
+      <class name="Practice.PutTest">
+        <methods>
+          <include name="put"/>
+        </methods>
+      </class> <!-- Practice.PutTest -->
+      <class name="PathPathParameter.PathParameterTest">
+        <methods>
+          <include name="parameterTest"/>
+        </methods>
+      </class> <!-- PathPathParameter.PathParameterTest -->
+      <class name="ApiTesting.ValidateTest">
+        <methods>
+          <include name="Validate"/>
+        </methods>
+      </class> <!-- ApiTesting.ValidateTest -->
+      <class name="Practice.CreateResourceTest">
+        <methods>
+          <include name="Create"/>
+        </methods>
+      </class> <!-- Practice.CreateResourceTest -->
+      <class name="rngyantra.com.PostResourceTest">
+        <methods>
+          <include name="postResource"/>
+        </methods>
+      </class> <!-- rngyantra.com.PostResourceTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
